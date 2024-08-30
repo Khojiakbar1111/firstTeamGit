@@ -1,0 +1,31 @@
+header {
+    padding: 40px 300px;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ header>a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+ }
+ 
+ header>a h4 {
+    font-size: 20px;
+ }
+ 
+ header ul {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+ }
+ 
+ header ul li a {
+    color: white;
+ }
+ 
+ header ul li a.active {
+    color: #E4E4E4;
+    border-bottom: 2px solid orange;
+ }

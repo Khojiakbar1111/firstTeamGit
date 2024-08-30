@@ -1,0 +1,56 @@
+.home {
+    padding: 50px 300px;
+    display: flex;
+    gap: 150px;
+    color: white;
+}
+
+.home-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.home-title h4 {
+    font-size: 34px;
+}
+
+.home-title h1 {
+    font-size: 50px;
+}
+
+.home-title p {
+    color: #E4E4E4;
+}
+
+.home-title button {
+    margin-top: 20px;
+    width: 200px;
+    height: 47px;
+    border-radius: 6px;
+    background: #E2A300;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.home-title button:hover {
+    background: #E29E007A;
+    color: white;
+}
+
+.home-title button:active {
+    background: #E2A300;
+    color: black;
+}
+
+.home-img {
+    margin-top: -100px;
+
+}
+
+.home-img img {
+    width: 700px;
+}
