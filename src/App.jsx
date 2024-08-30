@@ -6,8 +6,8 @@ import './App.css'
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore veniam itaque eum quos ipsum quod. Perspiciatis ratione voluptate earum esse!</p>
       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, est.</span>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta animi quam, labore corporis ab non minus recusandae facilis temporibus saepe.</p>
+      <span>Lorem ipsum dolor sit amet.</span>
     </div>
   )
-
 
 export default App
