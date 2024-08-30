@@ -7,6 +7,7 @@ import './App.css'
       <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, est.</span>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta animi quam, labore corporis ab non minus recusandae facilis temporibus saepe.</p>
       <span>Lorem ipsum dolor sit amet.</span>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
   )
 
