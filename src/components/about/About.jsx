@@ -5,7 +5,7 @@ import aboutImg from "../../assets/aboutImg.png";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-background_img">
         <img src={backgImg} alt="" />
       </div>

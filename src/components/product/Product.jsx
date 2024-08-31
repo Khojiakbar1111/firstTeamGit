@@ -9,7 +9,7 @@ import ProductImg5 from "../../assets/Group (3).png";
 import ProductImg6 from "../../assets/ic_baseline-auto-awesome-motion.png";
 const Product = () => {
   return (
-    <div className="product">
+    <div className="product" id="product">
       <div className="product-cards">
         <div className="product-card">
           <img src={ProductImg} alt="" />
