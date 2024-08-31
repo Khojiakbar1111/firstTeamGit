@@ -1,0 +1,60 @@
+.portfoliyo {
+  width: 100%;
+  background-color: #1e1e1e;
+  padding: 100px 375px;
+}
+
+.portfoliyo > h1 {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mySwiper {
+  position: relative;
+  width: 100%;
+  background-color: red;
+  background-color: rgba(65, 65, 65, 1);
+  border-radius: 28px;
+}
+
+.swiper-slide {
+  display: flex !important;
+  gap: 50px;
+  padding: 50px !important;
+}
+
+.slider-detail {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.slider-detail h1 {
+  font-size: 24px;
+}
+
+.slider-detail p {
+  font-size: 18px;
+  text-align: center;
+  line-height: 23px;
+}
+
+.slider-detail a {
+  color: orange;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.swiper-pagination-bullet {
+  background-color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: orange !important;
+}

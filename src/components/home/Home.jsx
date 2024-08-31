@@ -3,7 +3,7 @@ import HomeImg from "../../assets/Gleb.png";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <div className="home-title">
         <h4>HELLO</h4>
         <h1>I’M GLEB KOSTRUBOV</h1>
