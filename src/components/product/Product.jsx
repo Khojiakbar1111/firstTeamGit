@@ -11,11 +11,11 @@ const Product = () => {
   return (
     <div className="product">
       <div className="product-cards">
-        <div className="product-disign">
+        <div className="product-card">
           <img src={ProductImg} alt="" />
           <h4>Product Design</h4>
         </div>
-        <div className="product-ux">
+        <div className="product-card">
           <img src={ProductImg1} alt="" />
           <h4>UX/UI Design</h4>
         </div>
@@ -27,7 +27,7 @@ const Product = () => {
           <img src={ProductImg3} alt="" />
           <h4>Icon Design</h4>
         </div>
-        <div className="product-backend">
+        <div className="product-card">
           <img src={ProductImg4} alt="" />
           <h4>Backend</h4>
         </div>

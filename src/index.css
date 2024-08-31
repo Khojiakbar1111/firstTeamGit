@@ -6,8 +6,7 @@
   list-style-type: none;
 }
 
-
-  body {
-    width: 100%;
-    background: black;
-  }
+.App {
+  width: 100%;
+  background: black;
+}

@@ -1,56 +1,56 @@
 .home {
-    padding: 50px 300px;
-    display: flex;
-    gap: 150px;
-    color: white;
+  padding: 50px 300px 0px;
+  display: flex;
+  gap: 150px;
+  color: white;
 }
 
 .home-title {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 80px;
 }
 
 .home-title h4 {
-    font-size: 34px;
+  font-size: 34px;
 }
 
 .home-title h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .home-title p {
-    color: #E4E4E4;
+  color: #e4e4e4;
 }
 
 .home-title button {
-    margin-top: 20px;
-    width: 200px;
-    height: 47px;
-    border-radius: 6px;
-    background: #E2A300;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.5s ease;
+  margin-top: 20px;
+  width: 200px;
+  height: 47px;
+  border-radius: 6px;
+  background: #e2a300;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
 }
 
 .home-title button:hover {
-    background: #E29E007A;
-    color: white;
+  background: #00c4f0;
+  color: white;
 }
 
 .home-title button:active {
-    background: #E2A300;
-    color: black;
+  background: #e2a300;
+  color: black;
 }
 
 .home-img {
-    margin-top: -100px;
-
+  margin-top: -100px;
 }
 
 .home-img img {
-    width: 700px;
+  width: 700px;
 }
