@@ -22,7 +22,7 @@ function Portfoliyo() {
           pagination={{
             dynamicBullets: true,
           }}
-          autoplay={{ delay: 100, disableOnInteraction: false }}
+          autoplay={{ delay: 1000, disableOnInteraction: false }}
           modules={[Pagination]}
           className="mySwiper"
         >
