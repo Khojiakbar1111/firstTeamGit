@@ -1,31 +1,43 @@
-header {
-  padding: 40px 300px;
+nav {
+  padding: 20px 300px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-header > a {
+nav > a {
   display: flex;
   align-items: center;
   gap: 20px;
   color: white;
+  text-decoration: none;
 }
 
-header > a h4 {
+nav > a h4 {
   font-size: 20px;
+  margin: 0;
 }
 
-header ul {
+nav ul {
   display: flex;
   align-items: center;
-  gap: 120px;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-header ul li a {
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
   color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: color 0.3s, border-bottom 0.3s;
 }
 
-header ul li a.active {
-  color: #e4e4e4;
-  border-bottom: 2px solid orange;
+.activeClass {
+  color: orangered;
 }
